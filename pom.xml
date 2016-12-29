@@ -16,11 +16,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>spb-maven-repo</id>
-            <url>http://spb-maven-repo</url>
-        </repository>
-    </repositories>
 </project>

@@ -1,6 +1,6 @@
 package com.rendersymbols.example;
 
-import com.rendersymbols.core.common.ListenerLoop;
+import com.rendersymbols.core.drawing.ListenerLoop;
 import com.rendersymbols.core.drawing.Graphics;
 import com.rendersymbols.core.drawing.Surface;
 import com.rendersymbols.core.drawing.ThreadDrawing;

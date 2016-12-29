@@ -1,9 +1,8 @@
 package com.rendersymbols.core.common;
 
-import org.junit.Before;
 import org.junit.Test;
 
-import static com.rendersymbols.Main.log;
+import static com.rendersymbols.example.Main.log;
 import static org.junit.Assert.*;
 
 /**

@@ -5,7 +5,7 @@ import com.rendersymbols.core.drawing.Graphics;
 
 import java.util.Random;
 
-import static com.rendersymbols.Main.log;
+import static com.rendersymbols.example.Main.log;
 
 /**
  * Created by stas on 27.12.16.

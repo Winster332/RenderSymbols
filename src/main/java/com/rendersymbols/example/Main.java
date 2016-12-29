@@ -1,4 +1,4 @@
-package com.rendersymbols;
+package com.rendersymbols.example;
 
 import com.rendersymbols.example.App;
 

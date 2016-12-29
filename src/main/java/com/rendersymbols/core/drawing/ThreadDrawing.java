@@ -1,7 +1,5 @@
 package com.rendersymbols.core.drawing;
 
-import com.rendersymbols.core.common.ListenerLoop;
-
 import java.util.ArrayList;
 import java.util.List;
 

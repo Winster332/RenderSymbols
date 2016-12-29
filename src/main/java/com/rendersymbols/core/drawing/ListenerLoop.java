@@ -1,4 +1,4 @@
-package com.rendersymbols.core.common;
+package com.rendersymbols.core.drawing;
 
 /**
  * Created by User on 12/30/2016.
