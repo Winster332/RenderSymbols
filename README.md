@@ -1,4 +1,7 @@
 # RenderSymbols
+
+![screenshot of sample](https://pp.vk.me/c604821/v604821939/20236/UG2-GZfaurQ.jpg)
+
 Не большая библиотека на java для рисования символами в термилале или любом другом окне вывода
 
 Все необходимое находится в common и drawing.
