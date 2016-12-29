@@ -1,6 +1,6 @@
-package com.company.core.Drawing;
+package com.rendersymbols.core.drawing;
 
-import com.company.core.Common.Vector2;
+import com.rendersymbols.core.common.Vector2;
 
 /**
  * Created by stas on 27.12.16.

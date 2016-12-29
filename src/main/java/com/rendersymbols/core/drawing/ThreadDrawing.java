@@ -1,6 +1,6 @@
-package com.company.core.Drawing;
+package com.rendersymbols.core.drawing;
 
-import com.company.core.Common.ListenerLoop;
+import com.rendersymbols.core.common.ListenerLoop;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class ThreadDrawing extends Thread {
 
     public ThreadDrawing(Surface surface) {
         this.surface = surface;
-        loops = new ArrayList<>();
+        loops = new ArrayList<ListenerLoop>();
         setTimeStep(1000);
         setRendering(false);
     }

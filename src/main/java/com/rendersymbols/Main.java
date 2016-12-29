@@ -1,6 +1,6 @@
-package com.company;
+package com.rendersymbols;
 
-import com.company.example.App;
+import com.rendersymbols.example.App;
 
 public class Main {
     public static void log(String... texts) {
@@ -15,6 +15,7 @@ public class Main {
         long time = System.nanoTime();
 
         new App();
+
 
         time = System.nanoTime() - time;
         log("nano time: " + (time));

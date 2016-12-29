@@ -1,7 +1,7 @@
-package com.company.example.Neural;
+package com.rendersymbols.example.Neural;
 
-import com.company.core.Common.Vector2;
-import com.company.core.Drawing.Graphics;
+import com.rendersymbols.core.common.Vector2;
+import com.rendersymbols.core.drawing.Graphics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Network {
 
     public Network(Graphics graphics) {
         this.graphics = graphics;
-        neurons = new ArrayList<>();
+        neurons = new ArrayList<Neuron>();
     }
 
     public void addNeuron(String name, float[] width) {

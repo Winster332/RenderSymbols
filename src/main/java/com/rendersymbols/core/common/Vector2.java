@@ -1,4 +1,4 @@
-package com.company.core.Common;
+package com.rendersymbols.core.common;
 
 /**
  * Created by stas on 27.12.16.
@@ -63,7 +63,7 @@ public class Vector2 {
         Vector2 v = new Vector2();
         v.setX((int)Math.rint(vector.getX()));
         v.setY((int)Math.rint(vector.getY()));
-        return vector;
+        return v;
     }
 
     @Override

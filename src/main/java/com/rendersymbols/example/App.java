@@ -1,10 +1,10 @@
-package com.company.example;
+package com.rendersymbols.example;
 
-import com.company.core.Common.ListenerLoop;
-import com.company.core.Drawing.Graphics;
-import com.company.core.Drawing.Surface;
-import com.company.core.Drawing.ThreadDrawing;
-import com.company.example.Neural.Network;
+import com.rendersymbols.core.common.ListenerLoop;
+import com.rendersymbols.core.drawing.Graphics;
+import com.rendersymbols.core.drawing.Surface;
+import com.rendersymbols.core.drawing.ThreadDrawing;
+import com.rendersymbols.example.Neural.Network;
 
 /**
  * Created by User on 12/29/2016.
@@ -25,12 +25,10 @@ public class App implements ListenerLoop {
         threadDrawing.setRendering(true);
     }
 
-    @Override
     public void update() {
         network.recognize(getObject2());
     }
 
-    @Override
     public void draw() {
         surface.clear();
         network.draw();

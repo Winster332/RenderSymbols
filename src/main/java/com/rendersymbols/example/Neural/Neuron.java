@@ -1,11 +1,11 @@
-package com.company.example.Neural;
+package com.rendersymbols.example.Neural;
 
-import com.company.core.Common.Vector2;
-import com.company.core.Drawing.Graphics;
+import com.rendersymbols.core.common.Vector2;
+import com.rendersymbols.core.drawing.Graphics;
 
 import java.util.Random;
 
-import static com.company.Main.log;
+import static com.rendersymbols.Main.log;
 
 /**
  * Created by stas on 27.12.16.

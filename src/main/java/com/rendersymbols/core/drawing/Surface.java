@@ -1,4 +1,4 @@
-package com.company.core.Drawing;
+package com.rendersymbols.core.drawing;
 
 /**
  * Created by stas on 27.12.16.
