@@ -1,5 +1,7 @@
 # RenderSymbols
 
+[![Coverage Status](https://coveralls.io/repos/github/Winster332/RenderSymbols/badge.svg?branch=master)](https://coveralls.io/github/Winster332/RenderSymbols?branch=master)
+
 ![screenshot of sample](https://pp.vk.me/c604821/v604821939/20236/UG2-GZfaurQ.jpg)
 
 Не большая библиотека на java для рисования символами в термилале или любом другом окне вывода
