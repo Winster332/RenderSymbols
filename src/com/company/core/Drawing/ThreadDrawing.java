@@ -1,6 +1,6 @@
-package com.company.Core.Drawing;
+package com.company.core.Drawing;
 
-import com.company.Core.Common.ListenerLoop;
+import com.company.core.Common.ListenerLoop;
 
 import java.util.ArrayList;
 import java.util.List;

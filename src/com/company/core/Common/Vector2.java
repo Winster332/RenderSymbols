@@ -1,4 +1,4 @@
-package com.company.Core.Common;
+package com.company.core.Common;
 
 /**
  * Created by stas on 27.12.16.

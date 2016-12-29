@@ -1,7 +1,7 @@
 package com.company.example.Neural;
 
-import com.company.Core.Common.Vector2;
-import com.company.Core.Drawing.Graphics;
+import com.company.core.Common.Vector2;
+import com.company.core.Drawing.Graphics;
 
 import java.util.Random;
 

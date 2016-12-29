@@ -1,9 +1,9 @@
 package com.company.example;
 
-import com.company.Core.Common.ListenerLoop;
-import com.company.Core.Drawing.Graphics;
-import com.company.Core.Drawing.Surface;
-import com.company.Core.Drawing.ThreadDrawing;
+import com.company.core.Common.ListenerLoop;
+import com.company.core.Drawing.Graphics;
+import com.company.core.Drawing.Surface;
+import com.company.core.Drawing.ThreadDrawing;
 import com.company.example.Neural.Network;
 
 /**
