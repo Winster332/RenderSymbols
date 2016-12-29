@@ -11,6 +11,10 @@ public class Graphics {
     public Graphics() {
     }
 
+    public Surface getSurface() {
+        return surface;
+    }
+
     public void setSurface(Surface surface) {
         this.surface = surface;
     }
