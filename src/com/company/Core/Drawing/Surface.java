@@ -1,4 +1,4 @@
-package com.company.Drawing;
+package com.company.Core.Drawing;
 
 /**
  * Created by stas on 27.12.16.

@@ -1,6 +1,6 @@
-package com.company.Drawing;
+package com.company.Core.Drawing;
 
-import com.company.Common.Vector2;
+import com.company.Core.Common.Vector2;
 
 /**
  * Created by stas on 27.12.16.

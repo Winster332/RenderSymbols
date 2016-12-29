@@ -1,7 +1,7 @@
-package com.company.Neural;
+package com.company.example.Neural;
 
-import com.company.Common.Vector2;
-import com.company.Drawing.Graphics;
+import com.company.Core.Common.Vector2;
+import com.company.Core.Drawing.Graphics;
 
 import java.util.ArrayList;
 import java.util.List;
