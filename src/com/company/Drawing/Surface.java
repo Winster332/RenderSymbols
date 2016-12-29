@@ -1,7 +1,5 @@
 package com.company.Drawing;
 
-import java.util.List;
-
 /**
  * Created by stas on 27.12.16.
  */
@@ -56,6 +54,10 @@ public class Surface {
     }
 
     public void setSymbol(int x, int y, String symbol) {
+        if (x < 0 || y< 0) return;
+
+        if (buffer.length < x || buffer[0].length < 0) return;
+
         buffer[x][y] = symbol;
     }
 

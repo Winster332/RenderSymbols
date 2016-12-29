@@ -21,11 +21,9 @@ public class Main {
         System.out.println();
     }
 
-    public static void main(String[] args) {
-        long time = System.nanoTime();
-
+    public static void drawingNetwork(){
         Graphics graphics = new Graphics();
-        Surface surface = new Surface(100, 50);
+        Surface surface = new Surface(100, 35);
         surface.setGraphics(graphics);
         surface.setClearSymbol(" ");
         surface.clear();
@@ -56,6 +54,15 @@ public class Main {
 
         network.draw();
         surface.draw();
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        long time = System.nanoTime();
+
+        for (int i = 0; i < 100; i++) {
+            drawingNetwork();
+            Thread.sleep(500);
+        }
 
         time = System.nanoTime() - time;
         System.out.println("nano time: " + (time));
