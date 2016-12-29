@@ -5,12 +5,12 @@
 Пакет Neural - побочный. В Main - визуализация работы простейшой однослойной нейронной сети.
 
 ##Функционал
-fillRectangle
-drawRectangle
-drawLine
-drawLines
-drawPolygon
-drawCircle
-drawEllipse
-drawTextHorizontal
-drawTextVetical
+> fillRectangle
+> drawRectangle
+> drawLine
+> drawLines
+> drawPolygon
+> drawCircle
+> drawEllipse
+> drawTextHorizontal
+> drawTextVetical
