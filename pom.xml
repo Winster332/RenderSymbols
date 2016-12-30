@@ -41,7 +41,7 @@
                         <artifactId>coveralls-maven-plugin</artifactId>
                         <version>4.3.0</version>
                         <configuration>
-                            <repoToken>fDNKyHqoJUbJrDn401iSe9ZO4KYZncxaU</repoToken>
+                            <repoToken>EqNZDApWP8ZXwMxWgch3DKfgxVkANqGSa</repoToken>
                         </configuration>
                     </plugin>
                     <plugin>
@@ -101,17 +101,6 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.7</version>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <serverId>nexus001</serverId>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                        </configuration>
                     </plugin>
                 </plugins>
             </build>
