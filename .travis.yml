@@ -1,2 +1,4 @@
 language: java
 sudo: false
+
+service_name: travis-ci
