@@ -4,13 +4,12 @@ jdk:
 install:
   - mvn clean test verify -Ptravis-ci
 
-after_success:
-  - mvn cobertura:cobertura coveralls:report -Ptravis-ci
-
-
 notifications:
   email:
      - stas-martynov-98@mail.ru
 
 services:
   - RenderSymbols
+  
+after_success:
+  - coveralls
