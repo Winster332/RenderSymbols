@@ -12,4 +12,4 @@ services:
   - RenderSymbols
   
 after_success:
-  - coveralls
+  - mvn cobertura:cobertura coveralls:report -Ptravis-ci
