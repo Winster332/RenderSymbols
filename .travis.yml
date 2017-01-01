@@ -13,3 +13,4 @@ services:
   
 after_success:
   - mvn cobertura:cobertura coveralls:report -Ptravis-ci
+  - coveralls
