@@ -7,14 +7,10 @@ install:
 notifications:
   email:
      - stas-martynov-98@mail.ru
-
-services:
-  - RenderSymbols
   
-  script:
-   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
-   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
+script:
+ - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
+ - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
   
 after_success:
   - mvn cobertura:cobertura coveralls:report -Ptravis-ci
-  - coveralls
