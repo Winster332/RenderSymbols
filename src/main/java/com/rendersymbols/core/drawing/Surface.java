@@ -42,7 +42,7 @@ public class Surface {
     }
 
     public void draw() {
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < height; i++)
             System.out.println();
 
         for (int i = 0; i < height; i++) {
