@@ -1,12 +1,13 @@
 language: java
 jdk:
   - oraclejdk7
+  
 install:
   - mvn clean test verify -Ptravis-ci
 
+after_success:
+  - mvn cobertura:cobertura coveralls:report -Ptravis-ci
+  
 notifications:
   email:
      - stas-martynov-98@mail.ru
-  
-after_success:
-  - mvn cobertura:cobertura coveralls:report -Ptravis-ci
