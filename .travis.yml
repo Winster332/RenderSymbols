@@ -11,3 +11,6 @@ after_success:
 notifications:
   email:
      - stas-martynov-98@mail.ru
+     
+services:
+  - RenderSymbols
