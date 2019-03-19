@@ -5,12 +5,12 @@
 
 ![screenshot of sample](https://pp.vk.me/c604821/v604821939/20236/UG2-GZfaurQ.jpg)
 
-Не большая библиотека на java для рисования символами в термилале или любом другом окне вывода
+A small java library for drawing characters in a terminal or any other output window.
 
-Все необходимое находится в common и drawing.
-Пакет Neural - побочный. В Main - визуализация работы простейшей однослойной нейронной сети.
+Everything you need is in common и drawing.
+Package Neural - side. In Main - visualization of the work of the simplest single-layer neural network.
 
-## Функционал
+## Functions
 * fillRectangle
 * drawRectangle
 * drawLine
@@ -22,70 +22,70 @@
 * drawTextVetical
 * drawPoint
 
-## Использование
+## Use
 
-Инициализация графики
+Graphics initialization
 ```java
 Graphics graphics = new Graphics();
 ```
 
-Инициализация поверхности
+Surface initialization
 ```java
 Surface surface = new Surface(100, 50);
 ```
 
-Установка текущего graphics(т.к. можно будет создовать свои на основе имеющегося Graphics)
+Set the current graphics (because you can create your own based on the existing Graphics)
 ```java
 surface.setGraphics(graphics);
 ```
 
-Установка символа очистки
+Setting the cleaning character
 ```java
 surface.setClearSymbol("0");
 ```
 
-Перерисовка поверхности
+Surface redrawing
 ```java
 surface.clear();
 surface.draw();
 ```
 
-Для начала необходимо рисовать на graphics, а уже потом перерисовывать поверхность
+First you need to draw on graphics, and only then redraw the surface
 
-### Рендеринг в отдельном потоке
+### Rendering in a separate stream
 
-Создание рендера
+Render creation
 ```java
-// surface создается как описано выше
+// surface created as described above
 ThreadDrawing threadDrawing = new ThreadDrawing(surface);
 threadDrawing.setTimeStep(1000); // миллисекунды задержки
 threadDrawing.setRendering(true);
 ```
-Остановка рендера:
+Render stop:
 ```java
 threadDrawing.setRendering(false);
 ```
 
-### Отрисовка с использованием рендера
+### Render Rendering
 
-Создается отдельный класс наследующий и имплементирующий методы класса ListenerLoop
+A separate class is created that inherits and implements class methods. ListenerLoop
 ```java
 public class App implements ListenerLoop {
     @Override
     public void update() {
-        // Обновление логики
+        // Logic update
     }
 
     @Override
     public void draw() {
         surface.clear();
-        // тут происходит рисование в Graphics
+        // there is drawing in Graphics
         surface.draw();
     }
 }
 ```
 
-Необходимо рендеру указать класс который необходио обновлять и перерисовывать
+It is necessary for the renderer to specify the class that needs to be updated and drawn.
 ```java
 threadDrawing.addListenerLoop(listenerLoopApp);
 ```
